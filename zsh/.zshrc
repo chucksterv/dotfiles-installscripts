@@ -1,13 +1,20 @@
 # Path to Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/.local/bin:$PATH"
 
 ZSH_THEME="simple"
 
 # Oh My Zsh plugins
+#
+# Plugin init
 plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
+  zoxide
   )
+
+# Plugin Configs
+ZOXIDE_CMD_OVERRIDE="cd"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -22,4 +29,5 @@ bindkey -v
 # Paths
 PATH=$PATH:/opt/nvim-linux64/bin
 PATH=$PATH:/home/chucky/.local/bin
+
 
