@@ -1,7 +1,7 @@
 # Update & Upgrade System
 sudo apt update && sudo apt upgrade -y
 
-sudo apt-get install curl wget gpg git php zsh unzip gnome-tweaks -y
+sudo apt-get install curl wget gpg git php zsh unzip gnome-tweaks xclip dconf-editor -y
 
 source ./fonts/fonts.sh
 source ./brave/install.sh
