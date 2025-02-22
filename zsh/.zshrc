@@ -29,5 +29,4 @@ bindkey -v
 # Paths
 PATH=$PATH:/opt/nvim-linux64/bin
 PATH=$PATH:/home/chucky/.local/bin
-
-
+PATH=$PATH:~/.filen-cli/bin
